@@ -1,0 +1,6 @@
+# Site navigation links
+
+header_pages:
+  - about.markdown
+  - archive.markdown
+  - contact.markdown

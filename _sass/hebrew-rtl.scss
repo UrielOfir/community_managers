@@ -1,0 +1,170 @@
+/**
+ * Hebrew RTL Support
+ */
+
+/* RTL direction for Hebrew content */
+html[lang="he"], 
+body[lang="he"] {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Adjust navigation for RTL */
+.site-nav .page-link {
+  margin-left: 0;
+  margin-right: 20px;
+}
+
+/* Adjust header alignment */
+.site-header {
+  text-align: right;
+}
+
+.site-title {
+  float: right;
+}
+
+/* Adjust post content */
+.post-content {
+  text-align: right;
+}
+
+.post-content h1, 
+.post-content h2, 
+.post-content h3, 
+.post-content h4, 
+.post-content h5, 
+.post-content h6 {
+  text-align: right;
+}
+
+/* Lists alignment */
+.post-content ul,
+.post-content ol {
+  text-align: right;
+  padding-right: 30px;
+  padding-left: 0;
+}
+
+/* Code blocks should remain LTR */
+.post-content pre,
+.post-content code {
+  direction: ltr;
+  text-align: left;
+}
+
+/* Links and buttons */
+.post-content a {
+  text-decoration: underline;
+}
+
+/* Footer alignment */
+.site-footer {
+  text-align: right;
+}
+
+/* Home page posts */
+.post-list .post-link {
+  text-align: right;
+}
+
+.post-meta {
+  text-align: right;
+}
+
+/* Pagination */
+.pagination {
+  text-align: center;
+}
+
+/* Table alignment */
+table {
+  direction: rtl;
+}
+
+table th,
+table td {
+  text-align: right;
+}
+
+/* Form elements */
+.contact-form input,
+.contact-form textarea {
+  text-align: right;
+}
+
+/* Responsive design adjustments */
+@media screen and (max-width: 600px) {
+  .site-nav {
+    text-align: right;
+  }
+  
+  .site-nav .page-link {
+    display: block;
+    text-align: right;
+    margin-right: 0;
+  }
+}
+
+/* Hebrew font improvements */
+body {
+  font-family: 'Assistant', 'Heebo', 'Noto Sans Hebrew', 'David', 'Times New Roman', serif;
+}
+
+/* Better spacing for Hebrew text */
+p, li {
+  line-height: 1.8;
+  word-spacing: 0.1em;
+}
+
+/* Tags and categories styling */
+.post-tag, .post-category {
+  background-color: #e8f4f8;
+  padding: 2px 8px;
+  border-radius: 3px;
+  font-size: 0.9em;
+  margin-left: 5px;
+  text-decoration: none;
+}
+
+.post-tag:hover, .post-category:hover {
+  background-color: #d1ecf1;
+}
+
+/* Enhanced readability for Hebrew */
+.post-content {
+  font-size: 1.1em;
+  line-height: 1.8;
+}
+
+.post-content strong {
+  font-weight: bold;
+}
+
+.post-content em {
+  font-style: italic;
+}
+
+/* Table of contents styling */
+.toc {
+  background-color: #f8f9fa;
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  padding: 16px;
+  margin: 16px 0;
+}
+
+.toc h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-size: 1.1em;
+}
+
+.toc ul {
+  margin-bottom: 0;
+  padding-right: 20px;
+}
+
+.toc li {
+  margin-bottom: 4px;
+}
