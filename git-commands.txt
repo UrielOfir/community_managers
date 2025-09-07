@@ -1,0 +1,12 @@
+# פקודות להעלאה ל-GitHub Pages
+
+# 1. הוסף את ה-remote repository (הרץ רק פעם אחת)
+git remote add origin https://github.com/urielo/community_managers.git
+
+# 2. דחף את הקוד ל-GitHub
+git push -u origin main
+
+# 3. לעדכונים עתידיים - הרץ את זה כל פעם שתרצה לעדכן את האתר:
+# git add .
+# git commit -m "עדכון תוכן האתר"
+# git push origin main
