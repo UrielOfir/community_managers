@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: מנהלי קהילות טכנולוגיות מקצועיות
-email: contact@tech-communities.co.il
+email: urielofir@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   אתר לאיגוד תוכן של קבוצת מנהלי הקהילות הטכנולוגיות המקצועיות בישראל.
   כאן תוכלו למצוא מאמרים, משאבים ועדכונים בתחום ניהול קהילות טכנולוגיות.
@@ -28,7 +28,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 lang: he
 direction: rtl
 twitter_username: 
-github_username:
+github_username: UrielOfir
 
 # Build settings
 theme: minima
@@ -38,11 +38,11 @@ plugins:
   - jekyll-seo-tag
 
 # GitHub Pages settings  
-github_username: urielo
-repository: urielo/community_managers
+github_username: UrielOfir
+repository: UrielOfir/community_managers
 
 # Production settings
-url: "https://urielo.github.io"
+url: "https://UrielOfir.github.io"
 baseurl: "/community_managers"
 
 # Exclude from processing.
